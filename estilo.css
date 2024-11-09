@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Fira Sans' , sans-serif;
+    color: #333;
+    background-color: #ccbd9b; 
+}
+
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.logo
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav a 
+{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav a:hover 
+{
+    border-bottom: 2px solid black;
+}
+.sing-in, .sing-up
+{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.sing-up
+{
+    background-color: #bba165;
+    color: #fff;
+}
+
+.imgprincipal
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.imgprincipal-conteudo
+{
+    max-width: 50%;
+}
+
+.imgprincipal h1
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.saiba-mais
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #705e49;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.saiba-mais:hover{
+    background-color: #ac987b;
+}
+
+.imagem-p
+{
+    max-width: 50%;
+    height: 50%;
+    margin-right: 8px;
+}
+
+.comunicacao
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 100px 0px;
+}
+
+.com-item
+{
+    text-align: center;
+    max-width: 30%;
+}
+
+.com-item img
+{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.com-item img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.principios
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.principio-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    margin: 100px 0px;
+}
+
+.principio-imagem
+{
+    width: 400px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.principio-imagem:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.principio-texto
+{
+    max-width: 700px;
+}
+
+.newsletter
+{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.newsletter h2 
+{
+    margin-bottom: 20px;
+}
+
+.newsletter form
+{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter input, .newsletter button
+{
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.newsletter button
+{
+    background-color: #705e49;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter button:hover{
+    background-color: #ac987b;
+}
+
+.footer 
+{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+section p{
+    padding-top: 10px;
+    text-align: justify;
+}
